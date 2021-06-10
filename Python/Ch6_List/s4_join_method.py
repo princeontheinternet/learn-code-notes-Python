@@ -4,6 +4,8 @@
     Join():
         1. It is a "String Method"
         2. The join() method takes all items in an iterable and joins them into one string.
+        3. It updates the string value in place otherwise
+           as string are immutable everytime you add anything to string a new memory address would be required.
 """
 
 flowers = [

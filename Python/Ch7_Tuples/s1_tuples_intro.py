@@ -17,6 +17,9 @@ print(metallica[0])  # Ride the Lightning
 print(metallica[1])  # Metallica
 print(metallica[2])  # 1984
 
+a = 1,
+print(type(a))   # <class 'tuple'>
+
 # *** 1st advantage of tuples ***
 
 # TUPLES ARE IMMUTABLE:
