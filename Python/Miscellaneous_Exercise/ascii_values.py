@@ -1,3 +1,5 @@
+# ASCII - American Standard Code for Information Interchange
+
 import pprint
 
 
@@ -8,7 +10,7 @@ def all_ascii_value(s):
 
     # Building a list of char from A-Z in capital and a-z in small list
     for i in range(26):
-        capital.append(chr(ord(s) + i))
+        capital.append(chr(ord(s) + i))             # ord - ordinal value of a char
         small.append(chr(ord(s.casefold()) + i))
 
     for char in capital:

@@ -57,6 +57,7 @@ for i, j in d.items():
 # .FROMKEYS()
 """ dict.fromkeys() - The fromkeys() method returns a dictionary with the specified keys and the specified value.
     Syntax: dict.fromkeys(keys, value)  
+    default value for value is None.
  """
 # **********************************************************************************************************************
 # From dict class we are calling an object fromkeys which will pass the keys

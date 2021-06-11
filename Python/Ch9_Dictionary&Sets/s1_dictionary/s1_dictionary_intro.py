@@ -9,7 +9,9 @@
     ● if duplicated the latest value will be replaced/updated for the key
 4. The values in dictionary are not accessed by index but by means of keys.
 5. Dictionaries are mutable.
-6. Dictionaries are not sequence type like lists and tuples.
+6. Dictionaries are not sequence type like lists and tuples. It is a Mapping Type.
+7.
+7. Dictionary use hash codes which makes them faster to access the key and value.
 """
 
 

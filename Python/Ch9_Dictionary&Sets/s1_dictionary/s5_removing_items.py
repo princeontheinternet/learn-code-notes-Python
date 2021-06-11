@@ -16,6 +16,7 @@ print(fruit)
 
 # Removing items using pop
 # --> dictionary.pop(keyname, defaultvalue)
+# If the default value is not mentioned and if the key is not present then an error comes.
 
 result = fruit.pop("apple", "Not present")  # If the key is not present it will return the default value.
 print(result)
