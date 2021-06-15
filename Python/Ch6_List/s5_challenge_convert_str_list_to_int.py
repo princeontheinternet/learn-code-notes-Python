@@ -13,6 +13,7 @@ generated_list = ['9', ' ',
 values = "".join(generated_list)
 print(values)   # 9 223 372 036 854 775 807
 
+# Remove spaces-by default/(specified value) at the beginning and at the end of the string:
 values_list = values.split()    # splits based on default argument i.e. space
 print(values_list)  # ['9', '223', '372', '036', '854', '775', '807']
 
