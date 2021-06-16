@@ -11,7 +11,7 @@ print("\nHi {}, You are {} years old.".format(name, age))
 # if age < 16 or age > 65:               # This is also right using "OR statement"
 # if age in range(16,66):
 
-if 16 <= age <= 65:                     # More official
+if 16 <= age <= 65:                     # Chain Comaprison
     print("Have a good day at work")
 else:
     print("Enjoy")

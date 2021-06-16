@@ -8,6 +8,7 @@ v1 = open("sample.txt", 'r')
 # The open() function returns a file object, which has a read() method for reading the content of the file
 print(v1.read())
 
+v1.readlines()  # returns each line as an element of a list
 
 # Loop through the file line by line:
 # for i in v1:

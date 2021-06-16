@@ -1,7 +1,7 @@
 # Tuples:
 
 """
-    1.  Tuples are similar to lists.
+    1.  Tuples are similar to lists. Tuples are ordered sequence of objects.
     2.  Both tuples and lists allows duplicates as they both are indexed.
     3.  Tuples are also sequence data type.
     4.  Tuples are immutable.

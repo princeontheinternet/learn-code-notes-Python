@@ -1,7 +1,7 @@
 # List:
 
 """
-    1. A list is a collection which is ordered and changeable.
+    1. A list is a collection which is ordered and changeable. It is ordered sequence of objects.
     2. Allows duplicate members.
     3. List are Mutable objects.
     4. List is a sequence data type.

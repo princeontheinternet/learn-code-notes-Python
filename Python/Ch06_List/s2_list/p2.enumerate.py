@@ -8,7 +8,7 @@
         It creates a tuple of indexes and the values.
 """
 
-for index, character in enumerate("abcdefgh"):
+for index, character in enumerate("abcdefgh"):      # t = ((0, 'a'), (1, 'b'), (2, 'c'), (3, 'd'))
     print(index, character)
 
 for values in enumerate("abcdefgh"):
