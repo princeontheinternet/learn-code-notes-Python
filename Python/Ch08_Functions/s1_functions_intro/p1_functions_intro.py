@@ -2,7 +2,7 @@
 
 """
 Functions:
-    1. A function is a block of code which only runs when it is called.
+    1. A function is a block of code which only runs when it is called. Functions uses snake_casing.
     2. Re-usability is the main achievement of Python functions.
     3. You can pass data, known as parameters, into a function.
 
