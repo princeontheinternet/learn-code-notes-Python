@@ -1,12 +1,12 @@
 # Getting integer value from user
 
 def get_int(prompt):
-    temp = input(prompt)
-    if temp.isnumeric():
-        return int(temp)
-    else:
-        print("Your input is WRONG")
-        return temp
+    while True:
+        temp = input(prompt)
+        if temp.isnumeric():
+            return int(temp)
+        else:
+            print("Your input is WRONG")
 
 
 def check_user_input_int_and_within_range(prompt):

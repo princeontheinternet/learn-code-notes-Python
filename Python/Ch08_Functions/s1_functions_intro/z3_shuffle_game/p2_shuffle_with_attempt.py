@@ -7,7 +7,7 @@ def shuffle_list(game_list):
     return game_list
 
 
-# 2. User Guess
+# 2. User Guess --> We can also take ref from Z_Miscellaneous get_integer function
 def user_guess():
     guess = ''
     while guess not in [0, 1, 2]:

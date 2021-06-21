@@ -1,5 +1,5 @@
 
-
+# class name follows PascalCase
 class Computer:
 
     def config(self):
