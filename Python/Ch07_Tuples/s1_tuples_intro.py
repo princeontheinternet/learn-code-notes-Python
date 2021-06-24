@@ -1,10 +1,22 @@
 # Tuples:
 
 """
-    1.  Tuples are similar to lists. Tuples are ordered sequence of objects.
-    2.  Both tuples and lists allows duplicates as they both are indexed.
-    3.  Tuples are also sequence data type.
-    4.  Tuples are immutable.
+
+    1. Tuples are Sequence Data Type.
+    2. Tuples are ordered and indexed.
+    3. Tuples are Immutable.
+        1. Therefore, Tuples are not Addable and UnChangeable.
+    4. Tuples allows Duplicates (as they are Indexed).
+
+
+Advantages of Tuples
+
+    1. Protects the Data Integrity (as they are Immutable)
+
+    2. Unpacking a tuple is flawless.
+
+    3. Tuples use less memory compares to lists.
+
 """
 
 eg_of_tuples = "a", "b", "c"

@@ -1,10 +1,11 @@
 # Circumference and Area of a circle
 
 class Circle:
-    pi = 3.14
+
+    pi = 3.14       # CLASS VARIABLE/STATIC
 
     def __init__(self, radius):
-        self.radius = radius
+        self.radius = radius    # INSTANCE VARIABLE
 
     def circumference(self):
         return 2 * Circle.pi * self.radius

@@ -1,17 +1,22 @@
 # Dictionary Intro
 
 """
-1. Dictionaries are used to store data values in {"key":"value"} pairs.
-2. Dictionary items are ordered in the way the are added.
-    ● As of Python version 3.7, the keys will appear in the order they were added.
-    ● In Python 3.6 and earlier, dictionaries are unordered.
-3. It does not allow duplicates.
-    ● if duplicated the latest value will be replaced/updated for the key
-4. The values in dictionary are not accessed by index but by means of keys.
-5. Dictionaries are mutable.
-6. Dictionaries are not sequence type like lists and tuples. It is a Mapping Type.
-7.
-7. Dictionary use hash codes which makes them faster to access the key and value.
+
+    1. Dictionaries are Mapping Data Type.
+
+    2. Dictionaries preserver the Order of Insertion but are accessed using Keys and not Index.
+            ● As of Python version 3.7, the keys will appear in the order they were added.
+        ● In Python 3.6 and earlier, dictionaries are unordered.
+
+    3. Dictionaries are Mutable.
+        1. Therefore, Dictionaries are Addable and Changeable.
+
+    4. Dictionaries do not allow Duplicates. If duplicated, the latest values will be updated.
+
+    5. Dictionaries are used to store data values in {"key":"value"} pairs.
+
+    6. Dictionary use hash codes which makes them faster to access the key and value.
+
 """
 
 

@@ -7,8 +7,8 @@ Classes and Objects:
 Class: blueprint for creating objects. Written in PascalCase.
 
 1. Class Name
-2. Class object attributes - variables - which will be same for all the instances
-3. __init__() method
+2. Class object attributes - Class variables/Static var - which will be same for all the instances
+3. __init__() method --> inside it instance variable
 4. Normal method
 objects: Instance of a Class.
 
@@ -41,6 +41,8 @@ class Dog:
         self.breed = breed
 
 
-my_dog = Dog(breed='Lab')     # Creating object
+# my_dog = Dog(my_dog, breed='Lab')   # my_dog is self object here
+
+my_dog = Dog(breed='Lab')  # Creating object
 
 print(type(my_dog))  # <class '__main__.Dog'>

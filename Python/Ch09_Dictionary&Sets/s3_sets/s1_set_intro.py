@@ -1,16 +1,30 @@
 # Sets Intro
 
 """
-1. Sets are unordered and un-indexed.
-2. Sets are written with curly brackets.
-3. Duplicates not allowed. If duplicated it replaces the existing value and the len(set) doesn't increases.
-4. Sets also use hash codes which make them faster to access each element
+
+    1. Sets are Set Data Type.
+
+    2. Sets are Unordered and Un-Indexed.
+        1. Therefore, Sets are Unchangeable.
+
+    3. Sets are Mutable
+        1. Therefore, Sets are Addable.
+
+    4. Sets do not allow Duplicates. If duplicated it replaces the existing value and the len(set) doesn't increases.
+
+    5. Sets are written with curly brackets.
+
+    6. Sets also use hash codes which make them faster to access each element
+
+
 
 Advantage of SETS
 
-1. For list and tuples if an element has to be searched then the whole list and tuple has to be accessed.
-    but in Sets as it uses hash codes that can be done faster.
-    So, membership operator performs faster in sets.
+    1. For list and tuples if an element has to be searched then the whole list and tuple has to be accessed.
+        but in Sets as it uses hash codes that can be done faster.
+        So, membership operator performs faster in sets.
+
+    2. Sets have unique elements
 
 """
 

@@ -1,10 +1,13 @@
 # List:
 
 """
-    1. A list is a collection which is ordered and changeable. It is ordered sequence of objects.
-    2. Allows duplicate members.
-    3. List are Mutable objects.
-    4. List is a sequence data type.
+
+    1. Lists is a Sequence Data Type.
+    2. Lists are ordered and Indexed.
+    3. Lists are Mutable.
+        1. Therefore, Lists are Addable and Changeable(as they are Indexed.).
+    4. Lists Allows Duplicates (as they are Indexed).
+
 """
 
 computer_parts = ["keyboard", "mouse", "cpu", "monitor", "printers", "speakers"]

@@ -3,7 +3,7 @@
 class Dog:
     # class object attributes
     # same for any instance
-    species = 'mammal'  # self keyword not required
+    species = 'mammal'  # CLASS/STATIC VARIABLE ---> self keyword not required
 
     def __init__(self, breed, name, spot):
         self.breed = breed
