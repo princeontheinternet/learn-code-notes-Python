@@ -16,7 +16,7 @@ def gen_fibon(n):
     b = 1
     for i in range(n):
         yield a
-        a, b = b, b + 1
+        a, b = b, a + b
 
 
 # This will occupy space
