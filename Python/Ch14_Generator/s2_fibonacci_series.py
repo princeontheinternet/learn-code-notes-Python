@@ -20,7 +20,7 @@ def gen_fibon(n):
 
 
 # This will occupy space
-print(normal_fibon(2))
+print(normal_fibon(10))
 
 # This will not occupy space but to access it you will have to apply loop
 # print(gen_fibon(10))    # <generator object gen_fibon at 0x000001A405139580>

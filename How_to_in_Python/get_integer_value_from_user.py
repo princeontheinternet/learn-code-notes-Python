@@ -39,8 +39,10 @@ def check_only_user_input_int(prompt):
     return int(temp)
 
 
-# ui = get_int("Enter only integer value: ")
-# x = check_user_input_int_and_within_range("Enter a number in range(0,10): ")
-# print(x)
-y = check_only_user_input_int("Enter a number: ")
-print(y)
+if __name__ == "__main__":
+
+    # ui = get_int("Enter only integer value: ")
+    # x = check_user_input_int_and_within_range("Enter a number in range(0,10): ")
+    # print(x)
+    y = check_only_user_input_int("Enter a number: ")
+    print(y)
