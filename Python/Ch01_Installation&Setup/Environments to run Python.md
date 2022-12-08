@@ -11,4 +11,5 @@
 3. Notebook Environments
    
         ● Eg: Jupiter Notebook. They support markdown notes.
-        ● ipynb - IPython Notebooks is the extension for Jupyter Notebooks
+        ● ipynb - *I*nteractive *PY*thon *N*ote*B*ook is the extension for Jupyter Notebooks.
+
