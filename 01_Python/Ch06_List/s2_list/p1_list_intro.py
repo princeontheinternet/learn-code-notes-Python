@@ -3,9 +3,9 @@
 """
 
     1. Lists is a Sequence Data Type.
-    2. Lists are ordered and Indexed.
+    2. Lists are ordered (the way things are inserted/stored) and Indexed.
     3. Lists are Mutable.
-        1. Therefore, Lists are Addable and Changeable(as they are Indexed.).
+        1. Therefore, Lists are Addable and Changeable(as they are Indexed & Mutable).
     4. Lists Allows Duplicates (as they are Indexed).
 
 """

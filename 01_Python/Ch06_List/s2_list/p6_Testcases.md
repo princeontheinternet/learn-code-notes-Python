@@ -1,7 +1,7 @@
 # Testing
 
 * **Testing** is a process of finding out if there are bugs in your code.
-* **Debugging** is the process of working out what the bus are, and fixing them.
+* **Debugging** is the process of working out what the bugs are, and fixing them.
 * Testing and debugging go together.
 * Writing functions in program makes it easier to test and debug as functions are small self-contained bits of code, that're easy to test and debug.
   

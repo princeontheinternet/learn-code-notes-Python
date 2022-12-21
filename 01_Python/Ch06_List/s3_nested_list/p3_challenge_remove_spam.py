@@ -17,7 +17,7 @@ for meal in menu:
     for item in meal:
         if item != "spam":
             print(item, end=", ")  # you can't use sep argument here
-            # as there is ony on word. It is used to separate two words
+            # as there is only one word. It is used to separate two words
     print()
 
 
