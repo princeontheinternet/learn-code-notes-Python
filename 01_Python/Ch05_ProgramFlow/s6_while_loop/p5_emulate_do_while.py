@@ -1,4 +1,4 @@
-# A Do while loop is a loop that executes the body of the loop atleast once before checking the condition.
+# A Do while loop is a loop that executes the body of the loop atleast once before checking the condition that is present at the end.
 
 # A do while state can be achieved in Python with the help of below code.
 
