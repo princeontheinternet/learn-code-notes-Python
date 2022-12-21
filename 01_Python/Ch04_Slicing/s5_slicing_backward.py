@@ -15,7 +15,7 @@ parrot = "Norwegian Blue"
 
 print(parrot[13:0:-1])  # eulB naigewro (N the first letter is not there as stop_value is 0)
 
-print(parrot[-5:-9:-1]) 
+print(parrot[-5:-9:-1]) # nai
 
 print(parrot[-3:2:-1]) # lB naigew
                        # In this case start & stop values have different sign,

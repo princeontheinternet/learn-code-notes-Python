@@ -3,7 +3,7 @@ temperature = 30
 raining = False
 
 #    (  F             and     T )            or  T              =   F or T = T
-if day == ("saturday" and temperature >= 27) or not raining:
+if (day == "saturday" and temperature >= 27) or not raining:
     print("Go for swimming")
 else:
     print("Don't go")
