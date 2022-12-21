@@ -3,7 +3,7 @@
 """
 
     1. Tuples are Sequence Data Type.
-    2. Tuples are ordered and indexed.
+    2. Tuples are ordered (the way things are inserted/stored) and indexed.
     3. Tuples are Immutable.
         1. Therefore, Tuples are not Addable and UnChangeable.
     4. Tuples allows Duplicates (as they are Indexed).
