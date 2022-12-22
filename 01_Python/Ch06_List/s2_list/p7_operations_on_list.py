@@ -18,7 +18,7 @@ print(list2)  # [0, 2, 4, 6, 8]
 # 4. count() of a specific item in a list
 print(list1.count(3))  # 1
 
-# 5. index(slice/index) of a specific item
+# 5. index(slice/index) of a first occurrence of specific item
 print(list1.index(3))  # 1
 
 # 6. sorts the list in place
