@@ -1,13 +1,17 @@
 # Virtual Environment
 
-* A Python virtual environment is an isolated installation of Python, separate from your main installation.
-  
-* To activate the environment in terminal:
-  
-      $ source venv/python3.6/bin/activate
+* A Python virtual environment is a tool that allows you to create an isolated environment for your Python projects.
 
-* You no longer have to run python3, whichever version you have installed in the virtual environment you run them all with the command python.
-  
-* To deactivate:
-  
-      $ deactivate
+* It can be useful to package your project and it's dependecies in an environment away from your local environment.
+
+* It can also be usefule to manage multiple python versions that can be used in multiple projects.
+
+---
+
+## Installing mutliple Python versions
+
+      ```sh
+      #update package manager's list of available packages in ubuntu
+      $ sudo apt update
+      
+      ```
