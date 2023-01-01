@@ -12,7 +12,7 @@
 
 * Check default Python version and all availabe Python versions
 
-      ```shell
+      ```python
 
       # Default python version of the system
       $ python3 --version
