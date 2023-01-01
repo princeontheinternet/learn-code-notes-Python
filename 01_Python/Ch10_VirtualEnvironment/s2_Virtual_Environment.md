@@ -12,24 +12,24 @@
 
 * Check default Python version and all availabe Python versions
 
-      ```python
+```shell
 
-      # Default python version of the system
-      $ python3 --version
+# Default python version of the system
+$ python3 --version
 
-      # Lists all python executales/versions installed on your system
-      $ ls /usr/bin/python*
+# Lists all python executales/versions installed on your system
+$ ls /usr/bin/python*
 
-      ```
+```
 
 * Change the default Python version
 
-      ```shell
+```shell
 
-      # To set a particular version as default version of python
-      $ sudo update-alternatives --install /usr/bin/python3.6 python /usr/bin/python3.11 1
+# To set a particular version as default version of python
+$ sudo update-alternatives --install /usr/bin/python3.6 python /usr/bin/python3.11 1
 
-      ```
+```
 
   * **update-alternatives** command is used to manage alternative programs on ubuntu.
   * **--install** is used to install a new alternative that takes 3 arguments
@@ -39,6 +39,6 @@
 
 * Install virtualenv
 
-      ```shell
+```shell
 
-      $ pip install virtualenv
+$ pip install virtualenv
