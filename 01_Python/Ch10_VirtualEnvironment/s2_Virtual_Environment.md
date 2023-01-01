@@ -31,8 +31,8 @@ $ sudo update-alternatives --install /usr/bin/python3.6 python /usr/bin/python3.
 
 ```
 
-  * **update-alternatives** command is used to manage alternative programs on ubuntu.
-  * **--install** is used to install a new alternative that takes 3 arguments
+  * **update-alternatives** command is used to manage alternative programs on ubuntu.z
+  * **--install** is used to install a new zalternative that takes 3 arguments
   * **/usr/bin/python3.6 python /usr/bin/python3.11** --> makes Python3.11 as alternative to 3.6
   * **'1'** is the priority of the alternative. Higher priority means that the alternative will be preferred over others.
   
