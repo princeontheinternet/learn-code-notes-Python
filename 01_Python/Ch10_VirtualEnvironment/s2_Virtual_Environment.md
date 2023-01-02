@@ -19,30 +19,14 @@
 # Default python version of the system
 $ python3 --version
 
+"""UBUNTU"""
 # Lists all python executales/versions installed on your system
 $ ls /usr/bin/python*
 
+"""WINDOWS"""
+C:\> where python
 ```
 
-<br>
-
-* Change the default Python version
-
-```python
-
-# To set a particular version as default version of python
-$ sudo update-alternatives --install /usr/bin/python3.6 python /usr/bin/python3.11 1
-
-```
-
-> **update-alternatives** command is used to manage alternative programs on ubuntu.
-
-> **--install** is used to install a new alternative that takes 3 arguments
-
-> **/usr/bin/python3.6 python /usr/bin/python3.11** --> makes Python3.11 as alternative to 3.6
-
-> **'1'** is the priority of the alternative. Higher priority means that the alternative will be preferred over others.
-  
 <br>
 
 * Install virtualenv
@@ -51,8 +35,13 @@ $ sudo update-alternatives --install /usr/bin/python3.6 python /usr/bin/python3.
 
 $ pip install virtualenv
 
+"""UBUNTU"""
 # Create Virtual env for version 3.8
 $ virtualenv -p /usr/bin/python3.8 py_env_3.8
+
+"""WINDOWS"""
+C:\> virtualenv -p C:\Pytho38\python.exe py_env_3.8
+
 ```
 
 > The above command will create a virtual environment that will have python3.8 version.
@@ -72,7 +61,11 @@ $ virtualenv py_env
 * To activate the virtual environment
 
 ```python
+"""UBUNTU"""
 $ source py_env_3.8/bin/activate
+
+"""WINDOWS"""
+py_env_3.8\Scripts\activate.bat
 ```
 
 <br>
