@@ -21,7 +21,7 @@ print("HELLOWORLD in UPPERCASE")
 
 #   2. Argument: A value passed to a function
 
-# To see function signature of print, go to Ch06->s3->p4.
+# To see function signature of print, go to Ch02-->p1.
 
 
 #   OUTPUT:
