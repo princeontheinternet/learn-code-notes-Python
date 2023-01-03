@@ -5,7 +5,7 @@
     1. Dictionaries are Mapping Data Type.
 
     2. Dictionaries preserver the Order of Insertion but are accessed using Keys and not Index.
-            ● As of Python version 3.7, the keys will appear in the order they were added.
+        ● As of Python version 3.7, the keys will appear in the order they were added.
         ● In Python 3.6 and earlier, dictionaries are unordered.
 
     3. Dictionaries are Mutable.

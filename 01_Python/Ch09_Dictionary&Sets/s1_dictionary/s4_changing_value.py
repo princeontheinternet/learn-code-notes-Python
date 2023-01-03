@@ -1,5 +1,3 @@
-# del and pop
-
 fruit = {"orange": "a sweet, orange, citrus fruit",
          "apple": "good for making cider",
          "lemon": "a sour, yellow citrus fruit",

@@ -6,7 +6,10 @@ def ask_for_int():
             result = int(input("Please enter a number: "))
         except:
             print("Does this looks like a number to you? Try again.")
-        else:
+        else: 
+            # You can use an else block after except cause in try-except statements.
+            # else clause will be executed if and only if try does not raise exception.
+
             print(f"Great! Your number {result} is accepted")
             break
         finally:
