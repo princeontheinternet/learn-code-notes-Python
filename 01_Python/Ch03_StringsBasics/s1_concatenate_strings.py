@@ -13,9 +13,17 @@ name = input("Please Enter Your Name: ")    # input method is used to take input
 print(greeting + ", " + name)  # + is used to concatenate strings
 
 # To do the above in one line
-print("Hello, " + input("Plese Enter Your Name: ") + "!" ) # Hello, Prince!
+print("Hello, " + input("What is your name? ") + "!" )
+
+
+# Print length of a string
+print(len(input("Enter a string whose lenght you want to find? ")))
 
 #   OUTPUT:
 
 # Please Enter Your Name: Prince
 # Hello, Prince
+# What is your name? Prince
+# Hello, Prince!
+# Enter a string whose lenght you want to find? Prince
+# 6
