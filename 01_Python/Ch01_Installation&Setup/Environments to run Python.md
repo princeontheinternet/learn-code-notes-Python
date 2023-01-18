@@ -19,3 +19,7 @@
         ● Replit
 
 5. You can also use python in Terminal/Command Prompt using an interactive enironment called **REPL (Read-Evaluate_Print_Loop).**
+
+6. Best Debugging tool:
+
+        ● Thonny
