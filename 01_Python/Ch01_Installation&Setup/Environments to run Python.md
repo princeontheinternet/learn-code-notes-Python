@@ -6,7 +6,7 @@
 
 2. Full IDEs
 
-        ● Eg: Pycharm, intellij, Spyder
+        ● Eg: Pycharm, intellij, Spyder, VS Code
 
 3. Notebook Environments
 
