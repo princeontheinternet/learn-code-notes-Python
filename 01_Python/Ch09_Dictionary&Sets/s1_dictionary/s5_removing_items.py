@@ -28,3 +28,9 @@ print(result1)
 
 # Removing all items using dict.clear(), it retunrs None.
 fruit.clear()
+
+# -----------------------------------
+# Dictionaries do not have remove method
+fruit.remove()
+# The above line will give AtttributeError.
+# ----------------------------------------
