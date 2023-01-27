@@ -1,5 +1,17 @@
 # SHALLOW COPY VS DEEP COPY
 
+"""
+Shallow Copy: 
+    - Copies References.
+    - It creates a new object that has a reference to the original object's data.
+    - Any change made to the original object, it will also reflect in the copied object (for mutable object).
+
+Deep Copy:
+    - Creates a new object with a new memory address and a copy of the original object's data.
+    - Any change to the original object will not affect the copied object.
+"""
+
+
 # Importing for Deep copy function
 import copy
 
