@@ -14,12 +14,13 @@ print(fruit)
 # del fruit
 
 
-# Removing items using pop
+# Removing items using dict.pop()
 # --> dictionary.pop(keyname, defaultvalue)
 # If the default value is not mentioned and if the key is not present then an error comes.
 
 result = fruit.pop("apple", "Not present")  # If the key is not present it will return the default value.
 print(result)
 
-result1 = fruit.pop("lemon", "Not present")  # If the key is present it will return the key's value.
+# Removing items using dict.popitem()
+result1 = fruit.popitem() # removes the last item
 print(result1)
