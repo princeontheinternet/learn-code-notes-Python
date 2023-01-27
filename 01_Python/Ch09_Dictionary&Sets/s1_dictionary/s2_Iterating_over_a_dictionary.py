@@ -13,6 +13,11 @@ fruit = {"orange": "a sweet, orange, citrus fruit",
 
 # using items_method
 print(fruit.items())
+# dict_items([('orange', 'a sweet, orange, citrus fruit'), 
+# ('apple', 'good for making cider'), 
+# ('lemon', 'a sour, yellow citrus fruit'), 
+# ('grape', 'a small, sweet fruit growing in bunches'), 
+# ('lime', 'a sour, green citrus fruit')])
 
 for i, j in fruit.items():
     print(i, j, sep=" --> ")
