@@ -24,3 +24,7 @@ print(result)
 # Removing items using dict.popitem()
 result1 = fruit.popitem() # removes the last item
 print(result1)
+
+
+# Removing all items using dict.clear(), it retunrs None.
+fruit.clear()
