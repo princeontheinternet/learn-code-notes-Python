@@ -26,5 +26,3 @@ except ValueError:
     print(f"{user_input} is not present in shopping_list")
 except:
     print("Something went wrong")
-
-shopping_list.index(user_input)
