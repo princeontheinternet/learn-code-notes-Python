@@ -16,7 +16,7 @@ print(f"{list_of_names[random_person]} needs to pay the bill")
 '''
 Learnings:
 
-    1. random.randint(low, high): includes both low and high values.
+    1. random.randint(low, high): includes both low and high values and accepts only integer values.
 
-    2. random.choice(seq): Returns a random element from a sequence.
+    2. random.choice(seq): Returns random element from a sequence.
 '''

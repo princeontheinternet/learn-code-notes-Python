@@ -17,6 +17,8 @@ for i in "love":
     love += combined_name.count(i)
 
 love_score = int(str(true) + str(love))
+# Using f-strings
+# love_score = int(f"{true}{love}")
 
 if love_score < 10 or love_score > 90:
     print(f"Your score is {love_score}, you go together like coke and mentos.")
