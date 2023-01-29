@@ -38,6 +38,15 @@
 
   * It is raised when a built-in operation/function receives an argument with the right type but an inappropriate value, such as passing a string to a function that is expecting an integer.
   * Eg: ```int("hello")``` will raise a ValueError.
+  * Eg:
+
+    ```python
+    list1 = [1,2,3,4]
+    print(list.index(5))
+
+    # As 5 is not present in list1, therefore we will get ValueError.
+    ValueError: 5 is not in list
+      ```
 
 ---
 
