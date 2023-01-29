@@ -5,7 +5,7 @@ user_input = input("Enter the name of the item that you want to search: ")
 # Method 1: Without index method
 position = None
 
-for i in range(0, len(shopping_list)-1):
+for i in range(0, len(shopping_list)):
     if shopping_list[i] == user_input:
         position = i
         break
