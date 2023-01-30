@@ -1,3 +1,4 @@
+# 1. set.add() 
 
 def get_integer(prompt):
     while True:

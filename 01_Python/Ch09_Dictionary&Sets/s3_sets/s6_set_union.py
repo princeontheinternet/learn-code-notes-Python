@@ -1,4 +1,6 @@
-# Union
+# Union: Combination of all unique elements.
+
+# 3. set.union()
 
 farm_animals = {"sheep", "hen", "cow", "horse", "goat"}
 wild_animals = {"lion", "elephant", "tiger", "goat", "panther", "horse"}
@@ -12,5 +14,5 @@ print(all_animals_2)
 all_animals_3 = wild_animals | farm_animals         # same result, returns a new set
 print(all_animals_3)
 
-wild_animals.update(farm_animals)           # updates the wild_animal with farm_animals and does not return a new set
+wild_animals.update(farm_animals)           # updates the wild_animal with farm_animals and returns None
 print(wild_animals)

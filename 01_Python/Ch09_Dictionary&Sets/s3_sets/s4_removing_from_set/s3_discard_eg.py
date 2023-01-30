@@ -1,3 +1,5 @@
+# set.discard(): does not raise error if element is not present.
+
 travel_mode = {"1": "car", "2": "plane"}
 
 
