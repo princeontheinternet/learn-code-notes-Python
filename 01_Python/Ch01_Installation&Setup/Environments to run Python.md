@@ -23,3 +23,4 @@
 6. Best Debugging tool:
 
         ● Thonny
+        ● https://pythontutor.com/
