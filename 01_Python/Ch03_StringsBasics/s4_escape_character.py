@@ -1,4 +1,4 @@
-#                   Section 4: Escaped Char
+#                   Section 4: Escape Char
 
 # The o/p will be on 2 different lines so print method by default creates a new line.
 print("1. This is first line")
@@ -21,6 +21,15 @@ print("5. This text is too long \
 so i want to split in multiple lines \
 but the o/p should come in one line. \
 Print method should behave as it is.")
+
+
+# How to print: print('what to print')
+# Using escape char way
+# If you want to include quotes inside a string that is enclosed by the same type of quote, you can use backslashes(\).
+print('print(\'what to print\')')
+# Another way
+print("print('what to print')")
+
 
 
 #   OUTPUT:
