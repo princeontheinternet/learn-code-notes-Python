@@ -7,7 +7,7 @@ total = 0
 
 # Dynamic Digit Number
 for each_digit in user_input:
-    total += int(each_digit)
+    total += int(each_digit)    # Type Conversion
 
 print(total)
 
