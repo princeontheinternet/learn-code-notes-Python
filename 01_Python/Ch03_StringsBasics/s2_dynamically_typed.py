@@ -15,7 +15,9 @@ print(type(x))
 
 # Variable: It is just a way to give a meaningful name to an area of memory,
 #           into which we can place certain values.
-#           Variable and function names should be in lowercase, with words separated by underscore.
+#           - Variable and function names should be in lowercase, with words separated by underscore.
+#    		- Don't start variable names with numbers.
+#           - Avoid using built-in function names or keywords as variable names.
 
 
 # Python is dynamically typed language.
