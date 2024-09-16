@@ -22,8 +22,8 @@
 * ## TypeError
 
   * It is raised when an **operation/function is applied to an object/variable of an incompatible data type**.
-  * For example, you might get a TypeError when trying to add a string and a number together.
-  * Eg ```len(123)``` #int does not have len function as it not indexed.
+  * For Eg - 1, you might get a TypeError when trying to **add a string and a number together**.
+  * For Eg - 2, ```len(123)``` #int does not have len function as it not indexed.
   * TypeError occurs because of Python being ***strongly typed*** that enforces strict restrictions of intermixing values of different types.
 
 ---
