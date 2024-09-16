@@ -28,3 +28,5 @@ if extra_cheese == "Y":
 
 # - if: Checks every condition independently, even if earlier ones are true. Use it when more than one condition can be true at the same time.
 # - elif: Stops checking once one condition is true. Use it when only one condition can be true, making the code more efficient.
+
+# if elif else will only check one condition and any of it is true it will not run/check the subsequent ones. If you want to check multiple condition use if if if.
