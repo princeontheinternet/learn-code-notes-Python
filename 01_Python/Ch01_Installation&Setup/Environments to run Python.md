@@ -13,7 +13,7 @@
         ● Eg: Jupiter Notebook. They support markdown notes.
         ● ipynb - Interactive PYthon NoteBook is the extension for Jupyter Notebooks.
 
-4. Browser IDE
+4. Browser IDE(Integrated Development Environment)
 
         ● Google Colab
         ● Replit
