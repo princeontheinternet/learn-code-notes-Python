@@ -21,8 +21,4 @@
 
 * **Grace Hopper** is famous for coining the term "debugging" and discovering the 1st computer bug.
   
-* While working on the Harvard Mark II computer, she found a moth inside the maching causing an error, which she removed and docuented. This incident is considered as the first recorded computer bug.
-
-
-
-
+* While working on the Harvard Mark II computer, she found a moth inside the machine causing an error, which she removed and docuented. This incident is considered as the first recorded computer bug.
