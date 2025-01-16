@@ -42,3 +42,26 @@ It defaults to newline character \n.
     ```
 
 * **flush** --> flush: Default False. Controls when the output buffer is cleared (flushed) and sent to the console or a file.
+  
+  ```python
+  import time
+
+  print("Test 1: Output is buffered (flush=False)")
+
+  for i in range(5):
+      print(i, end=" ")  # Output is buffered, so numbers may not appear immediately.
+      time.sleep(1)
+
+  print("\n") 
+
+  print("Test 2: Output is immediate (flush=True)")
+  for i in range(5):
+      print(i, end=" ", flush=True) # Output is flushed immediately to the console, numbers appear in real-time.
+      time.sleep(1)
+
+  # Explanation:
+  # In Test 1, the output is buffered, meaning the numbers may appear all at once after the loop finishes.
+  # In Test 2, setting flush=True forces the output to be written to the console immediately, 
+  # so the numbers appear one by one in real-time as the loop iterates.
+
+  ```
