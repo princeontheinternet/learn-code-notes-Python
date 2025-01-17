@@ -37,7 +37,9 @@
 * ## ValueError
 
   * It is raised when a built-in operation/function receives an argument with the right type but an inappropriate value, such as passing a string to a function that is expecting an integer.
-  * Eg: ```int("hello")``` will raise a ValueError.
+  * Eg: ```int("hello")``` will raise a ValueError because 
+    * the type (str) is valid for int() - ```int("123")```, but the value ```"hello"``` is not numeric.
+    * So **data type** is compatible but **value is not convertible to int** that is why **Value Error**
   * Eg:
 
     ```python
